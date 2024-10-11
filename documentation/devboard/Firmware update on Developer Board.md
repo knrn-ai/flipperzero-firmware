@@ -1,4 +1,4 @@
-# Get started with the Dev Board {#dev_board_get_started}
+# Firmware update on Developer Board {#dev_board_fw_update}
 
 It's important to regularly update your Developer Board to ensure that you have access to the latest features and bug fixes. This page will guide you through the necessary steps to update the firmware of your Developer Board.
 

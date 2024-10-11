@@ -43,7 +43,7 @@ To debug FAPs, do the following:
 
 1. Build firmware with `./fbt`
 2. Flash it with `./fbt flash`
-3. [Build your FAPfap-howto) and run it on Flipper
+3. [Build your FAP](#fap-howto) and run it on Flipper
 
 After that, you can attach the debugger to the target MCU with `./fbt debug` or VS Code and use all debug features.
 
@@ -57,7 +57,7 @@ Since the FAP has to be loaded to RAM to be executed, the amount of RAM availabl
 
 Apps are built for a specific API version. It is a part of the hardware target's definition and contains a major and minor version number. The App Loader checks if the app's major API version matches the firmware's major API version.
 
-The App Loader allocates memory for the app and copies it to RAM, processing relocations and providing concrete addresses for imported symbols using the [symbol tablesymbol-table). Then it starts the app.
+The App Loader allocates memory for the app and copies it to RAM, processing relocations and providing concrete addresses for imported symbols using the [symbol table](#symbol-table). Then it starts the app.
 
 ## API versioning {#api-versioning}
 
