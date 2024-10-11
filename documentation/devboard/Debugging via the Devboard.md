@@ -6,7 +6,7 @@ On this page, you'll learn about how debugging via the Wi-Fi Developer Board wor
 
 ## Overview
 
-The Developer Board acts as the debug probe, which provides a bridge between the IDE (integrated development environment) with a debugger running on a host computer and the target microcontroller (in your Flipper Zero). The user controls the debugging process on the computer connected to the Developer Board via [Wi-Fi](./Wi-Fi%20connection%20to%20the%20Devboard.md) or [USB cable](./USB%20connection%20to%20the%20Devboard.md).
+The Developer Board acts as the debug probe, which provides a bridge between the IDE (integrated development environment) with a debugger running on a host computer and the target microcontroller (in your Flipper Zero). The user controls the debugging process on the computer connected to the Developer Board via [Wi-Fi](#dev_board_wifi_connection) or [USB cable](#dev_board_usb_connection).
 
 ![](https://cdn.flipperzero.one/Flipper_Zero_WiFi_hardware_CDN.jpg)
 
@@ -77,7 +77,7 @@ To debug in **VS Code**, do the following:
     > - Attach FW (blackmagic)
     > - Attach FW (DAP)
 
-    To check the debug mode on your Devboard, access the Devboard's web interface as described [here](./Wi-Fi%20connection%20to%20the%20Devboard.md) and check the **USB mode** field. If you want to use a different debug mode, enable this mode by following the steps in [Devboard debug modes](./Devboard%20debug%20modes.md).
+    To check the debug mode on your Devboard, access the Devboard's web interface as described [here](#dev_board_wifi_connection) and check the **USB mode** field. If you want to use a different debug mode, enable this mode by following the steps in [Devboard debug modes](#dev_board_debug_modes).
 
 5. If needed, flash your Flipper Zero with the `./fbt flash` command, then click the ▷ **Start Debugging** button in the debug sidebar to start the debugging session.
 
@@ -86,8 +86,8 @@ To debug in **VS Code**, do the following:
 ![](https://cdn.flipperzero.one/Flipper_Zero_Wi-Fi_devboard_VS_Code.jpg)
 
 > [!note]
-> If you want to use a different debug mode on your Developer Board, visit [Devboard debug modes](./Devboard%20debug%20modes.md).
+> If you want to use a different debug mode on your Developer Board, visit [Devboard debug modes](#dev_board_debug_modes).
 >
-> If you want to read logs via the Developer Board, see [Reading logs via the Devboard](./Reading%20logs%20via%20the%20Devboard.md).
+> If you want to read logs via the Developer Board, see [Reading logs via the Devboard](#dev_board_reading_logs).
 > 
 > To learn about debugging in VS Code, see [VS Code official guide](https://code.visualstudio.com/docs/editor/debugging).

@@ -116,5 +116,5 @@ To fix it, try doing the following:
 
     You've successfully updated the firmware of your Developer Board!
 
-If you followed the **Get started with the Devboard**, you're ready for the next step: [Step 3. Plug the Devboard into Flipper Zero](./Get%20started%20with%20the%20Dev%20Board.md#step-3).
+If you followed the **Get started with the Devboard**, you're ready for the next step: [Step 3. Plug the Devboard into Flipper Zero](#dev_board_get_started_step-3).
 

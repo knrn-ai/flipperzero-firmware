@@ -18,9 +18,9 @@ Switching debug modes for working via USB has to be done wirelessly *(yes, you r
 
 2. Access the Devboard's web interface:
 
-    - [Wi-Fi access point mode](./Wi-Fi%20connection%20to%20the%20Devboard.md#wifi-access-point)
+    - [Wi-Fi access point mode](#wifi-access-point)
 
-    - [Wi-Fi client mode](./Wi-Fi%20connection%20to%20the%20Devboard.md#wifi-client-mode)
+    - [Wi-Fi client mode](#wifi-client-mode)
 
 3. In the **WiFi** tab, click the **USB mode** option and select **BlackMagicProbe** or **DapLink**.
 

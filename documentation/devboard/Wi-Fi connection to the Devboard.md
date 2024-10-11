@@ -25,17 +25,15 @@ Out of the box, the Developer Board is configured to work as a Wi-Fi access poin
     Name: `blackmagic`
     Password: `iamwitcher`
 
-    If your computer fails to find the **blackmagic** network, read the [troubleshooting section]() below.
+    If your computer fails to find the **blackmagic** network, read the [troubleshooting section](#wifi-access-point_troubleshooting) below.
 
 4. To access the Devboard's web interface, open a browser and go to <http://192.168.4.1> or <http://blackmagic.local>.
 
-### If your computer fails to find the black magic network
+### If your computer fails to find the black magic network {#wifi-access-point_troubleshooting}
 
 - Reset Wi-Fi connection on your computer.
 
-- The Developer Board is probably configured to work in Wi-Fi client mode. -> Reset your Developer Board settings to default by pressing and holding the **BOOT** button for **10 seconds**, then wait for the Devboard to reboot. After the reset, the Devboard will work in Wi-Fi access point mode.
-
-- The Developer Board is probably configured to work in Wi-Fi client** **mode. -> Reset your Developer Board settings to default by pressing and holding the **BOOT** button for **10 seconds**, then wait for the Devboard to reboot. After the reset, the Devboard will work in Wi-Fi access point mode.
+- The Developer Board is probably configured to work in Wi-Fi client mode. → Reset your Developer Board settings to default by pressing and holding the **BOOT** button for **10 seconds**, then wait for the Devboard to reboot. After the reset, the Devboard will work in Wi-Fi access point mode.
 
 ![](https://cdn.flipperzero.one/Flipper_Zero_Wi-Fi_devboard_reboot.jpg)
 

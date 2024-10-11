@@ -23,11 +23,11 @@ Debug Mode allows you to debug your apps for Flipper Zero, as well as access deb
 
 ## Step 2. Update firmware on the Developer Board
 
-The Developer Board comes with stock firmware that may not include all the latest features and bug fixes. To ensure optimal performance, please update your board's firmware using the instructions in [Firmware update on Devboard](./Firmware%20update%20on%20the%20Devboard.md).
+The Developer Board comes with stock firmware that may not include all the latest features and bug fixes. To ensure optimal performance, please update your board's firmware using the instructions in [Firmware update on Devboard](#dev_board_fw_update).
 
 ***
 
-## Step 3. Plug the Devboard into Flipper Zero {#step-3}
+## Step 3. Plug the Devboard into Flipper Zero {#dev_board_get_started_step-3}
 
 Once your Developer Board firmware is up to date, you can proceed to plug it into your Flipper Zero. Two important things to keep in mind:
 
@@ -51,8 +51,8 @@ Once your Developer Board firmware is up to date, you can proceed to plug it int
 
 Now, you can connect the Developer Board to your computer via USB or Wi-Fi, depending on your needs. We described both methods in separate documents:
 
-- [**Via USB cable**](./USB%20connection%20to%20the%20Devboard.md) for debugging in DAP Link or Black Magic mode, and reading logs.
-- [**Via Wi-Fi**](./Wi-Fi%20connection%20to%20the%20Devboard.md) for debugging in Black Magic mode.
+- [**Via USB cable**](#dev_board_usb_connectiond) for debugging in DAP Link or Black Magic mode, and reading logs.
+- [**Via Wi-Fi**](#dev_board_wifi_connection) for debugging in Black Magic mode.
 
 ***
 
@@ -60,9 +60,9 @@ Now, you can connect the Developer Board to your computer via USB or Wi-Fi, depe
 
 You are ready to debug now! To further explore what you can do with the Devboard, check out these pages:
 
-- [Debugging via the Devboard](./Debugging%20via%20the%20Devboard.md)
-- [Devboard debug modes](./Devboard%20debug%20modes.md)
-- [Reading logs via the Devboard](./Reading%20logs%20via%20the%20Devboard.md)
+- [Debugging via the Devboard](#dev_board_debugging_guide)
+- [Devboard debug modes](#dev_board_debug_modes)
+- [Reading logs via the Devboard](#dev_board_reading_logs)
 
 These guides should help you get started with your Devboard. If you have any questions or you want to share your experience, don't hesitate to join our community on [Reddit](https://www.reddit.com/r/flipperzero/) and [Discord](https://discord.com/invite/flipper), where we have a dedicated #wifi-devboard channel.
 
